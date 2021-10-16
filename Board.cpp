@@ -99,7 +99,7 @@ int main(){
     piece bZebra;
     bZebra.name="black zebra";
     piece wZebra;
-    wZebra.name="white zebra";
+    //wZebra.name="white zebra";
 
     string test="gmelecz/ppppppp/7/7/7/PPPPPPP/GMELECZ";
     string test1="1m1El2/P1P2P1/1S4C/4S2/1E3S1/1P3c1/2GL3";
