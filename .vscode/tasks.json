@@ -1,0 +1,49 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"id": "shell,C:\\MinGW\\bin\\make.exe build --file=c:\\Users\\katleho\\.vscode\\extensions\\franneck94.c-cpp-runner-1.4.1\\templates\\Makefile --directory=FILE_DIR COMPILATION_MODE=Debug EXECUTABLE_NAME=outDebug.exe LANGUAGE_MODE=Cpp CPP_COMPILER=C:\\MinGW\\bin\\g++.exe ENABLE_WARNINGS=1 WARNINGS_AS_ERRORS=0 WARNINGS=\"-Wall -Wextra -Wpedantic\",",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"label": "C_Cpp_Runner: Build: AAA-Congo-BlackWatch",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"id": "shell,C:\\MinGW\\bin\\make.exe clean --file=c:\\Users\\katleho\\.vscode\\extensions\\franneck94.c-cpp-runner-1.4.1\\templates\\Makefile --directory=FILE_DIR --quiet COMPILATION_MODE=Debug EXECUTABLE_NAME=outDebug.exe LANGUAGE_MODE=Cpp CPP_COMPILER=C:\\MinGW\\bin\\g++.exe ENABLE_WARNINGS=1 WARNINGS_AS_ERRORS=0 WARNINGS=\"-Wall -Wextra -Wpedantic\",",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"label": "C_Cpp_Runner: Clean: AAA-Congo-BlackWatch",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cpp.exe build active file",
+			"command": "C:\\MinGW\\bin\\cpp.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: C:\\MinGW\\bin\\cpp.exe"
+		}
+	]
+}

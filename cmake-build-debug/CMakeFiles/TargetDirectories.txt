@@ -1,0 +1,3 @@
+C:/Users/katleho/AAA-Congo-BlackWatch/cmake-build-debug/CMakeFiles/AAA_Congo_BlackWatch.dir
+C:/Users/katleho/AAA-Congo-BlackWatch/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/katleho/AAA-Congo-BlackWatch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
